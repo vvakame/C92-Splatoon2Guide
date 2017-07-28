@@ -21,11 +21,11 @@
 
 逆に、「別に今のままでも十分楽しい」「遊びなんだから根を詰めてやりたくない」という人は本書の想定読者ではないかもしれません。
 
- 1. 精神論から入るSplatoon2
- 2. 物理的な身体の動かし方から入るSplatoon2
- 3. 豊富な練習方法があるぞSplatoon2
- 4. 知識で差をつけるSplatoon2
- 5. 人間は最高のコンテンツだぞSplatoon2
+ * @<chapref>{mindset} 精神論から入るSplatoon2
+ * @<chapref>{physical} 物理的な身体の動かし方から入るSplatoon2
+ * @<chapref>{training} 豊富な練習方法があるぞSplatoon2
+ * @<chapref>{knowledge} 知識で差をつけるSplatoon2
+ * @<chapref>{vs-human} 人間は最高のコンテンツだぞSplatoon2
 
 という順番で説明していきます。
 最後まで読めば強くなる方法が少し、理解できているかもしれません。
