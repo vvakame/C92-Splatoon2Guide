@@ -2,7 +2,11 @@ PREDEF:
   - preface.re
 
 CHAPS:
-  - index.re
+  - mindset.re
+  - physical.re
+  - training.re
+  - knowledge.re
+  - vs-human.re
 
 APPENDIX:
 
