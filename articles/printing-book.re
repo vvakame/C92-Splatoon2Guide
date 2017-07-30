@@ -1,14 +1,20 @@
 ={printing-book} 本を印刷するためのバトルログ
 
-2日前の金曜日の19:04に最初のコミットがあって、日曜日の12:32にとりあえず23P書き終えた。
-これからが真の戦いだ…。
-
 本書の目的は@<chapref>{preface}で書いたとおり、フリーなツールやフォントだけで印刷所に入稿できるのか？の検証なのでやっていく。
 入稿用PDFの作成は@<href>{https://hub.docker.com/r/vvakame/review/}で作る。
 TeX Live@<fn>{texlive}とNotoフォント@<fn>{noto-font}を利用する。
 
 //footnote[texlive][@<href>{https://www.tug.org/texlive/}]
 //footnote[noto-font][@<href>{https://www.google.com/get/noto/}]
+
+==== 07/30 12:32 原稿がとりあえずひととおり終わった
+
+2日前の金曜日の19:04に最初のコミットがあって、日曜日の12:32にとりあえず23P書き終えた。
+これからが真の戦いだ…。
+
+==== 07/30 15:19 データ作るぞ
+
+某アレのソレのためにTechBoosterの一部の人間が弊社に集まってきている。
 
 C92で出すRe:VIEW本@<fn>{c92-review}を読むと、PDF/Xに変換とグレースケール化をやったほうがいいらしい。
 
