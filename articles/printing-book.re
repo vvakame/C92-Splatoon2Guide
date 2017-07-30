@@ -1,4 +1,4 @@
-={printing-book} 本を印刷するためのバトルログ
+={printing-book} 入稿戦記
 
 本書の目的は@<chapref>{preface}で書いたとおり、フリーなツールやフォントだけで印刷所に入稿できるのか？の検証なのでやっていく。
 入稿用PDFの作成は@<href>{https://hub.docker.com/r/vvakame/review/}で作る。
