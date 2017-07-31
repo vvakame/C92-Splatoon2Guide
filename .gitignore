@@ -5,3 +5,5 @@ Gemfile.lock
 *.pdf
 
 articles/*.html
+articles/images/tmp/
+articles/images/**/*-original.jpg
