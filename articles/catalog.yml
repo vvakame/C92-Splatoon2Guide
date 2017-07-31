@@ -2,8 +2,8 @@ PREDEF:
   - preface.re
 
 CHAPS:
-  - mindset.re
   - physical.re
+  - mindset.re
   - training.re
   - knowledge.re
   - vs-human.re
