@@ -135,7 +135,7 @@ SwitchにDropbox搭載してくれ〜〜〜。
 
 //footnote[skitch][@<href>{https://evernote.com/intl/jp/products/skitch}]
 
-=== 08/01 10:31 見積もりのレスポンスを待ったほうがいいって思ってたの？
+=== 08/01 10:31 見積もりのレスポンスを待ってたの？
 
 //noindent
 muo「いつまで原稿粘るの？」@<br>{}
