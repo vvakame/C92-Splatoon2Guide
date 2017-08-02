@@ -27,7 +27,7 @@ booktitle: 負けたくない！Splatoon2
 
 # 著者名。「, 」で区切って複数指定できる
 # 読みを入れる例 aut: [{name: "青木峰郎", file-as: "アオキミネロウ"}, {name: "武藤健志", file-as: "ムトウケンシ"}, {name: "高橋征義", file-as: "タカハシマサヨシ"}, {name: "角征典", file-as: "カドマサノリ"}]
-aut: ["ひかる黄金わかめ帝国編"]
+aut: ["vvakame"]
 
 # 以下はオプション
 # 以下はオプション(autと同じように配列書式で複数指定可能)。
@@ -48,9 +48,11 @@ aut: ["ひかる黄金わかめ帝国編"]
 # a-cmm, cmm: 解釈・分析・考察者
 # a-csl, csl: 監修者
 # a-dsr, dsr: デザイナ
+dsr: ["vvakame"]
 # a-edt, edt: 編集者
 edt: ["vvakame"]
 # a-ill, ill: イラストレータ
+ill: ["shati"]
 # a-lyr, lyr: 歌詞作成者
 # a-mdc, mdc: メタデータセットの一次的責任者
 # a-mus, mus: 音楽家
