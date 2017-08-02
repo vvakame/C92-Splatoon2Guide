@@ -8,3 +8,5 @@ articles/*.html
 articles/images/cover/
 articles/images/tmp/
 articles/images/**/*-original.jpg
+
+finalize/
