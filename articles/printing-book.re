@@ -45,13 +45,13 @@ C92で出すRe:VIEW本@<fn>{c92-review}を読むと、フォントの埋込とPD
 Re:VIEWのreview-pdfmakerを使ってPDFを作るところまでは割愛する。
 
 //emlist[build-in-docker.sh]{
-#@mapfile(../build-in-docker.sh)
+#@# #@mapfile(../build-in-docker.sh)
 #!/bin/bash -eux
 
 docker run -t --rm \
   -v $(pwd):/book vvakame/review \
   /bin/bash -ci "cd /book && ./setup.sh && npm run pdf && ./grayscale.sh"
-#@end
+#@# #@end
 //}
 
 //emlist[setup.sh]{
