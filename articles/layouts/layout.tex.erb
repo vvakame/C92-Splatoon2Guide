@@ -226,6 +226,10 @@
 
 \begin{document}
 
+<%- if @config["nolinks"] -%>
+\hypersetup{hidelinks}
+<%- end -%>
+
 \reviewmainfont
 
 \frontmatter
