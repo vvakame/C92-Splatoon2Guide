@@ -1,0 +1,36 @@
+version: 2
+jobs:
+  build:
+    working_directory: /book
+    docker:
+      - image: vvakame/review
+    steps:
+      - checkout
+      - run: git submodule init && git submodule update
+
+      - restore_cache:
+          keys:
+            - npm-cache-{{ checksum "package-lock.json" }}
+      - run: npm run global
+      - run: npm install --no-save
+      - run: npm run postinstall
+      - save_cache:
+          key: npm-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
+
+      - run: npm run pdf
+      - store_artifacts:
+          path: /book/articles/C92-Splatoon2Guide.pdf
+          destination: generated PDF data
+
+      - run: npm run epub
+      - store_artifacts:
+          path: /book/articles/C92-Splatoon2Guide.epub
+          destination: generated EPUB data
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
