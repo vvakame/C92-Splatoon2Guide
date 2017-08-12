@@ -1,4 +1,4 @@
-# 負けたくない！Splatoon2 [![CircleCI]([![CircleCI](https://circleci.com/gh/vvakame/C92-Splatoon2Guide.svg?style=svg)](https://circleci.com/gh/vvakame/C92-Splatoon2Guide))
+# 負けたくない！Splatoon2 [![CircleCI](https://circleci.com/gh/vvakame/C92-Splatoon2Guide.svg?style=svg)](https://circleci.com/gh/vvakame/C92-Splatoon2Guide)
 
 ## この本のビルドの仕方
 
