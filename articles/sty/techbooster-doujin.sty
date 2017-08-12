@@ -1,3 +1,12 @@
+\renewcommand{\normalsize}{%
+  \jsc@setfontsize\normalsize{10}{17.5}
+  \abovedisplayskip 11\jsc@mpt \@plus3\jsc@mpt \@minus4\jsc@mpt
+  \abovedisplayshortskip \z@ \@plus3\jsc@mpt
+  \belowdisplayskip 9\jsc@mpt \@plus3\jsc@mpt \@minus4\jsc@mpt
+  \belowdisplayshortskip \belowdisplayskip
+  \let\@listi\@listI}
+\normalsize
+
 \usepackage[most]{tcolorbox}
 \tcbuselibrary{breakable}
 \renewenvironment{shaded}{
