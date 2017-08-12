@@ -1,11 +1,4 @@
-# C92-Android [![CircleCI](https://circleci.com/gh/TechBooster/C92-Android.svg?style=svg&circle-token=e510d12baf99365966c6b219d4abfe2d77431560)](https://circleci.com/gh/TechBooster/C92-Android)
-
-- CI: https://griflet.net/github/TechBooster/C92-Android/
-  - はじめてアクセスする場合は下のリンクから招待コードを入力してプロジェクトに参加してください
-    - https://griflet.net/project/uuid/a07f873d-af32-4cfc-841a-e23af4d7939d/eic
-    - 招待コード: EimaiNg7
-  - よく分からなかったら @dmiyakawa に連絡してください。
-
+# 負けたくない！Splatoon2 [![CircleCI]([![CircleCI](https://circleci.com/gh/vvakame/C92-Splatoon2Guide.svg?style=svg)](https://circleci.com/gh/vvakame/C92-Splatoon2Guide))
 
 ## この本のビルドの仕方
 
@@ -20,24 +13,21 @@ TeXの導入をしない場合でもHTML出力は可能です。Dockerコンテ�
 
 Atom以外の環境の場合、[prh](https://github.com/vvakame/prh)または[reviewjs-prh](https://github.com/vvakame/reviewjs-prh)とRedPenを自力でなんとか頑張って適用してください。
 
-警告やlintのエラーを放置して編集に突入してしまうと @mhidaka が過労で死にます。
+警告やlintのエラーを放置して編集に突入してしまうと編集担当が過労で死にます。
 RedPenは試験的に導入したため、知見やルールについてまだ固まっていません。
-意見・感想・修正案などあればHangoutsかSlackなどでﾓﾐﾓﾐしましょう。
+意見・感想・修正案などあればIssueやpull requestでお知らせください。
 
 ### PDF出力する
 
 rbenvやnodebrewを利用してRubyやNode.jsの準備をしている前提です。
-もしそうではない場合、適宜sudoを補うこと。
-Node.jsは4.x系以上が必須です。
-
-graphvizを使ったのでbrew install graphvizとかが必要かもしれません。
+必要であれば適宜sudoを補うこと。
+Node.jsは6.x系以上が必須です。
 
 ```
 $ gem install bundler
-$ git clone git@github.com:TechBooster/C92-Android.git
-$ cd C92-Android
-$ git submodule init
-$ git submodule update
+$ git clone https://github.com/vvakame/C92-Splatoon2Guide.git
+$ cd C92-Splatoon2Guide
+$ git submodule init && git submodule update
 $ npm install
 $ npm run pdf
 ```
@@ -48,10 +38,5 @@ TeXの環境構築が困難な場合、一式セットアップ済みの[docker�
 Dockerがうまく動くようになっている場合、以下のコマンドで細かい準備なしにビルドを行うことができます。
 
 ```
-$ docker pull vvakame/review
 $ ./build-in-docker.sh
 ```
-
-### HTML出力
-
-`npm run web` を実行すると、`publish/`ディレクトリ以下に公開用HTMLファイルおよびcss,画像を出力します。
